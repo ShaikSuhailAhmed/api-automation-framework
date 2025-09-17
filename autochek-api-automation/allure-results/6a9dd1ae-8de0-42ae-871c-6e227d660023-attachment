@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+Date: Tue, 16 Sep 2025 10:24:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 560
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTgwMTgxODgsImV4cCI6MTc4OTU1NDE4OH0.c2ksRD049id7ogC0rAJOOPeVxOXS5HcwM8jiI35llu_QPm43T2XfYD77DmK8TU9pPfY5q_cFT6LVnKdf3389Wg.e866vF7rDiMpkVZoFruvFZD%2B63xyhzGay3DR9Sc3y6w; Domain=.staging.myautochek.com; Path=/; Expires=Thu, 23 Aug 2125 10:24:01 GMT
+ETag: W/"230-bN0Bjp/Os258FDLbzSwudYeWLGE"
+server: hide
+
+{
+    "result": [
+        {
+            "id": "0003bf32-a2b7-42b9-af86-8f2d4324f6a2"
+        },
+        {
+            "id": "0004063f-6928-4096-bf81-7d48ef4432e9"
+        },
+        {
+            "id": "0008185b-1756-4140-a42c-a419f00ad933"
+        },
+        {
+            "id": "000d4bc4-b401-489f-8fdc-af70dc819067"
+        },
+        {
+            "id": "000d9207-02ee-4417-9972-dcea0385da2e"
+        },
+        {
+            "id": "000eee70-62a7-46b6-901d-0793a25d9a19"
+        },
+        {
+            "id": "000efb72-58b5-4e2b-8970-86a12cf18298"
+        },
+        {
+            "id": "000f53ce-7d45-464d-88b8-6ff2b497eea3"
+        },
+        {
+            "id": "000f8de8-c2fb-4c12-b2ca-394262fcc5f9"
+        },
+        {
+            "id": "0011ef34-ad4b-4422-8a73-ef9ce7223ac8"
+        }
+    ],
+    "pagination": {
+        "total": 42830,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 4283
+    }
+}

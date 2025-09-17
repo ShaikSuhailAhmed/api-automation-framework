@@ -1,0 +1,68 @@
+HTTP/1.1 200 OK
+Date: Tue, 16 Sep 2025 10:23:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 754
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"2f2-GNg14wxE0Z+lRHjn+hjqDxAkOCk"
+server: hide
+
+{
+    "makeList": [
+        {
+            "id": 1,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+        },
+        {
+            "id": 269,
+            "imageUrl": "https://storage.googleapis.com/autochek-staging/a88eb911-1abe-488d-9267-4946e3d4e709-honda%20logo.png"
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/cf5c88a4-6719-4dfb-90dd-3c02bd23fb49-aixam-logo.png"
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/e2e283bc-1367-4c96-921a-5bf04424656e-Alfaromeo2015.png"
+        },
+        {
+            "id": 244
+        },
+        {
+            "id": 245
+        },
+        {
+            "id": 246
+        },
+        {
+            "id": 247
+        },
+        {
+            "id": 248
+        }
+    ],
+    "pagination": {
+        "total": 211,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 22
+    }
+}

@@ -1,0 +1,34 @@
+HTTP/1.1 400 Bad Request
+Date: Tue, 16 Sep 2025 10:23:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 218
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTgwMTgxODgsImV4cCI6MTc4OTU1NDE4OH0.c2ksRD049id7ogC0rAJOOPeVxOXS5HcwM8jiI35llu_QPm43T2XfYD77DmK8TU9pPfY5q_cFT6LVnKdf3389Wg.e866vF7rDiMpkVZoFruvFZD%2B63xyhzGay3DR9Sc3y6w; Domain=.staging.myautochek.com; Path=/; Expires=Thu, 23 Aug 2125 10:23:50 GMT
+ETag: W/"da-Hno3/hBC7RIDinAteVI0Epa/jfA"
+server: hide
+
+{
+    "code": 4000,
+    "error": "Invalid fields requested",
+    "message": "Invalid fields requested",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/trims?fields=id%2Ctrim%2CwheelType%2C-imageUrl"
+        }
+    ]
+}

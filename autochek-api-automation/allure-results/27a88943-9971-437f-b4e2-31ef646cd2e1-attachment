@@ -1,0 +1,164 @@
+HTTP/1.1 200 OK
+Date: Tue, 16 Sep 2025 10:23:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 884
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTgwMTgxODgsImV4cCI6MTc4OTU1NDE4OH0.c2ksRD049id7ogC0rAJOOPeVxOXS5HcwM8jiI35llu_QPm43T2XfYD77DmK8TU9pPfY5q_cFT6LVnKdf3389Wg.e866vF7rDiMpkVZoFruvFZD%2B63xyhzGay3DR9Sc3y6w; Domain=.staging.myautochek.com; Path=/; Expires=Thu, 23 Aug 2125 10:23:46 GMT
+ETag: W/"374-Uacsrmq3ER3wBtASCDtdxG8iRlk"
+server: hide
+
+{
+    "modelList": [
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4296,
+            "name": "titanium"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4270,
+            "name": "J40"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4272,
+            "name": "G50"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4276,
+            "name": "320i"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4278,
+            "name": "Manual"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4279,
+            "name": "Automatic Standard"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4280,
+            "name": "Full Option"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4281,
+            "name": "Super Salon"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4283,
+            "name": "Standard"
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4284,
+            "name": "Full Option"
+        }
+    ],
+    "pagination": {
+        "total": 1943,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 195
+    }
+}
