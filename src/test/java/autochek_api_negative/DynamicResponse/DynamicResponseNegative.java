@@ -17,6 +17,9 @@ import java.util.stream.Collectors;
 
 import static io.restassured.RestAssured.given;
 
+
+
+
 @Epic("Inventory Service")
 @Feature("Negative Tests Dynamic Response")
 public class DynamicResponseNegative {
@@ -43,7 +46,7 @@ public class DynamicResponseNegative {
     }
 
     @Test(dataProvider = "Get Cars")
-    @Description("Validates GET /v1/inventory/car with dynamic parameters - Positive Test")
+    @Description("Validates GET /v1/inventory/car with dynamic parameters - Negative Test")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Get Cars List")
     public void GetCarListNegative(String type, String severity, String testDescription,
@@ -90,7 +93,7 @@ public class DynamicResponseNegative {
 
 
     @Test(dataProvider = "Get Make")
-    @Description("Validates GET /v1/inventory/make with dynamic fields filtering - Positive Test")
+    @Description("Validates GET /v1/inventory/make with dynamic fields filtering - Negative Test")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Get Make")
     public void GetMakeNegative(String type, String severity, String testDescription,
@@ -118,10 +121,12 @@ public class DynamicResponseNegative {
         AllureLogs.executeSoftAssertAll(softAssert);
     }
     @DataProvider(name = "Get Make")
-    public Object[][] Getmake() {
+    public Object[][] GetmakeNegative() {
         // Reads test data from Excel sheet named "Create Franchise"
         return Negative_Data_Extractor.ExcelData("Get Make Negative");
     }
+
+
     @Test(dataProvider = "Get Model")
     @Description("Validates GET /v1/inventory/model with dynamic parameters - Negative Test")
     @Severity(SeverityLevel.CRITICAL)
@@ -165,8 +170,11 @@ public class DynamicResponseNegative {
         return Negative_Data_Extractor.ExcelData("Get Model Negative");
     }
 
+
+
+
     @Test(dataProvider = "Get Trims")
-    @Description("Validates GET /v1/inventory/trims with dynamic parameters - Positive Test")
+    @Description("Validates GET /v1/inventory/trims with dynamic parameters - Negative Test")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Get Trims")
     public void GetTrimsNegative(String type, String severity, String testDescription,
@@ -234,6 +242,8 @@ public class DynamicResponseNegative {
         // Reads test data from Excel sheet named "Create Franchise"
         return Negative_Data_Extractor.ExcelData("Get Inspection Request Negative");
     }
+
+
     @Test(dataProvider = "Get Inspection")
     @Description("Validates GET /v1/inspection with dynamic parameters - Negative Test")
     @Severity(SeverityLevel.CRITICAL)
@@ -322,6 +332,7 @@ public class DynamicResponseNegative {
 
 
 
+
     @Test(dataProvider = "Get obds")
     @Description("Validates GET /v1/inventory/obds with dynamic parameters - Negative Test")
     @Severity(SeverityLevel.CRITICAL)
@@ -356,6 +367,8 @@ public class DynamicResponseNegative {
         // Reads test data from Excel sheet named "Create Franchise"
         return Negative_Data_Extractor.ExcelData("Get obds Negative");
     }
+
+
 
 
 }
