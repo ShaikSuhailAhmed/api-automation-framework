@@ -1,2 +1,0 @@
-The following asserts failed:
-	Status code should match | Expected: 200, Actual: 400 expected [200] but found [400]

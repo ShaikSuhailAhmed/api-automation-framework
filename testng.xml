@@ -1,177 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="API_Regression_Suite">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API_Regression_Suite" verbose="2" preserve-order="true" parallel="false">
+
     <listeners>
+        <!-- Allure listener: REQUIRED for allure-results -->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <!-- Your custom Allure logger (keep it if you need it) -->
         <listener class-name="Listener.AllureLogs"/>
     </listeners>
-    <test verbose="2" preserve-order="true" name="Autochek_API_Automation" >
+
+    <test name="Autochek_API_Automation">
         <classes>
-<!--            <class name="autochek_api_positive.DealerService">-->
-<!--                <methods>-->
-<!--                    <include name="dealerNotificationsTest"/>-->
-<!--                    <include name="dealerLoanTierDetailsTest"/>-->
-<!--                    <include name="dealerLoanStatisticsTest"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="autochek_api_positive.Invento">-->
-<!--                <methods>-->
-<!--                    <include name="getCarMake"/>-->
-<!--                    <include name="getCarModel"/>-->
-<!--                    <include name="getCarBodyType"/>-->
-<!--                    <include name="getCarColours"/>-->
-<!--                    <include name="getAllCars"/>-->
-<!--                    <include name="getCarCategories"/>-->
-<!--                    <include name="getSingleCarDetails"/>-->
-<!--                    <include name="getCarListDetails"/>-->
-<!--                    <include name="getCarDetailsById"/>-->
-<!--                    <include name="getCarModerations"/>-->
-<!--                    <include name="getUserLoanNotifications"/>-->
-<!--                    <include name="getModerationAlertMessages"/>-->
-<!--                    <include name="getCarFeaturesData"/>-->
-<!--                    <include name="getCarInspectionData"/>-->
-<!--                    <include name="getCarMediaTestData"/>-->
-<!--                    <include name="getInspectionRequestData"/>-->
-<!--                    <include name="getCarLatestInspectionTest"/>-->
-<!--                    <include name="getCarDocumentsTest"/>-->
-<!--                    <include name="createFranchiseTest"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="autochek_api_positive.Origination">-->
-<!--                <methods>-->
-
-<!--                        <include name="getLoanProduct"/>-->
-<!--                        <include name="getProductConfigTest"/>-->
-<!--                        <include name="getLoanProduct"/>-->
-<!--                        <include name="getLoanDetailsTest"/>-->
-<!--&lt;!&ndash;                        <include name="getLoanDocumentsConfigV2Test"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <include name="getStatusTrailTest"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <include name="getDealerLoansTest"/>&ndash;&gt;-->
-
-<!--                </methods>-->
-<!--            </class>-->
-<!--                        <class name="autochek_api_positive.UserService.UserService">-->
-<!--                            <methods>-->
-<!--                                <include name="CreateFranchise"/>-->
-<!--                                <include name="GetFranchiseByID"/>-->
-<!--                                <include name="GetFranchiseList"/>-->
-<!--                                <include name="UpdateFranchise"/>-->
-<!--                                <include name="RejectFranchise"/>-->
-<!--                            </methods>-->
-<!--                        </class>-->
-<!--            <class name="autochek_api_negative.UserService.UserServiceNegative">-->
-<!--                          <methods>-->
-<!--                              <include name="CreateFranchise"/>-->
-<!--                              <include name="UpdateFranchise"/>-->
-<!--                              <include name="GetFranchiseByID"/>-->
-<!--                              <include name="GetFranchiseList"/>-->
-<!--                           </methods>-->
-<!--            </class>-->
-<!--            <class name="autochek_api_positive.OriginationService.OriginationServicePositive">-->
-<!--                <methods>-->
-<!--                    <include name="uploadDocument"/>-->
-<!--                    <include name="uploadJSONDocuments"/>-->
-<!--                    <include name="PutApproveDocuments"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="autochek_api_positive.OfferSimulation.OfferSimulationPositive">-->
-<!--                <methods>-->
-<!--                    <include name="GetCarDetails"/>-->
-<!--                    <include name="PostCreateLoan"/>-->
-<!--                    <include name="PutUpdateLoan"/>-->
-<!--                    <include name="GetLoanById"/>-->
-<!--                    <include name="GetTyreBrands"/>-->
-<!--                    <include name="PostOfferSimulation"/>-->
-<!--                    <include name="AcceptOffer"/>-->
-
-<!--                </methods>-->
-<!--            </class>-->
-<!--                        <class name="autochek_api_positive.DecisionEngine.DecisionEnginePositive">-->
-<!--                            <methods>-->
-<!--                                <include name="verifyLoanFlowMethods"/>-->
-<!--&lt;!&ndash;                                <include name="updateAssignLoan"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                                <include name="GetPartnerBankDetails"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                                <include name="OfferID"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                                <include name="GetPartnerBankDetailsAfterOfferID"/>&ndash;&gt;-->
-<!--                            </methods>-->
-<!--                        </class>-->
-
-<!--            <class name="autochek_api_negative.OfferSimulation.OfferSimulationNegative">-->
-<!--                <methods>-->
-<!--                    <include name="LoginWithStaticTokenNegative"/>-->
-<!--                    <include name="GetCarDetailsNegative"/>-->
-<!--                    <include name="PostCreateLoanNegative"/>-->
-<!--                    <include name="PutUpdateLoanNegative"/>-->
-<!--                    <include name="GetLoanByIdNegative"/>-->
-<!--                    <include name="GetTyreBrandsNegative"/>-->
-<!--                    <include name="SubmitLoanPreferencesNegative"/>-->
-<!--                    <include name="AcceptOfferNegative"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--&lt;!&ndash;<class name="autochek_api_positive.DetachTyreSpecification.DetachTyreSpecificationPositive">&ndash;&gt;-->
-<!--    <methods>-->
-<!--        <include name="UploadImage"/>-->
-<!--        <include name="CreateCar"/>-->
-<!--        <include name="updateCar"/>-->
-<!--        <include name="GetTyreSpecsAfterUpdateCar"/>-->
-<!--        <include name="CompleteCar"/>-->
-<!--        <include name="GetTyreSpecs"/>-->
-<!--        <include name="InspectionRequest"/>-->
-<!--        <include name="CreateInspection"/>-->
-<!--        <include name="GetTyreSpecsAfterInspection"/>-->
-<!--    </methods>-->
-<!--</class>-->
-<!--            <class name="autochek_api_negative.DetachTyresSpecification.DetachTyresSpecificationNegative">-->
-<!--                <methods>-->
-<!--                    <include name="UploadImage"/>-->
-<!--                    <include name="CreateCar"/>-->
-<!--                    <include name="PutUpdateCar"/>-->
-<!--                    <include name="PutCompleteCar"/>-->
-<!--                    <include name="InspectionRequest"/>-->
-<!--                    <include name="GetTyreSpecs"/>-->
-<!--                    <include name="PostCreateInspection"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-
-<!--                        <class name="autochek_api_negative.OriginationService.OriginationServiceGetNegative">-->
-<!--                            <methods>-->
-<!--                                <include name="GetLoansListNegative"/>-->
-<!--                                <include name="GetLoanByIdNegative"/>-->
-<!--                                <include name="GetOffersListNegative"/>-->
-<!--                                <include name="GetPartnersListNegative"/>-->
-<!--                                <include name="GetOffersByLoanIdNegative"/>-->
-<!--                                <include name="GetOffersByIdNegative"/>-->
-<!--                                <include name="GetSourcesListNegative"/>-->
-<!--                                <include name="GetBanksListNegative"/>-->
-
-
-<!--                            </methods>-->
-<!--                        </class>-->
-<!--            <class name="autochek_api_positive.OriginationService.OriginationServiceGetPositive">-->
-<!--                <methods>-->
-<!--                    <include name="GetLoansList"/>-->
-<!--                    <include name="GetLoanById"/>-->
-<!--                    <include name="GetOffersList"/>-->
-<!--                    <include name="GetPartnersList"/>-->
-<!--                    <include name="GetOffersByLoanId"/>-->
-<!--                    <include name="GetOffersById"/>-->
-<!--                    <include name="GetSourcesList"/>-->
-<!--                    <include name="GetBanksList"/>-->
-
-
-<!--                </methods>-->
-<!--            </class>-->
             <class name="autochek_api_positive.DynamicResponse.DynamicResponsePositive">
-                            <methods>
-                                <include name="GetCarList"/>
-                                <include name="GetMake"/>
-                                <include name="GetModelList"/>
-                                <include name="GetTrims"/>
-                                <include name="GetInspection"/>
-                                <include name="GetInspectionRequest"/>
-                                <include name="GetBodyType"/>
-                                <include name="GetObds"/>
-                            </methods>
-                        </class>
+                <methods>
+                    <include name="GetCarList"/>
+                    <include name="GetMake"/>
+                    <include name="GetModelList"/>
+                    <include name="GetTrims"/>
+                    <include name="GetInspection"/>
+                    <include name="GetInspectionRequest"/>
+                    <include name="GetBodyType"/>
+                    <include name="GetObds"/>
+                </methods>
+            </class>
+
             <class name="autochek_api_negative.DynamicResponse.DynamicResponseNegative">
                 <methods>
                     <include name="GetCarListNegative"/>
@@ -184,10 +36,6 @@
                     <include name="GetObdsNegative"/>
                 </methods>
             </class>
-
-
-
-
         </classes>
     </test>
 </suite>
