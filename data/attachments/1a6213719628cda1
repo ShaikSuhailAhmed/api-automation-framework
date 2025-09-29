@@ -1,0 +1,174 @@
+HTTP/1.1 200 OK
+Date: Mon, 29 Sep 2025 08:30:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1031
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTkxMzQ1ODAsImV4cCI6MTc5MDY3MDU4MH0.-n4f3d140laVrqEaB3RBO_ukD7u9yaJ6z1_4y1d9nllEhxtjaErLeymajXSh8tjZIYsSplMi92EiHkVls8WCMQ.VCGY1L1F0zRQVZZQxOtzhhR%2FXtn783y6JsYU3qu2IB8; Domain=.staging.myautochek.com; Path=/; Expires=Wed, 05 Sep 2125 08:30:08 GMT
+ETag: W/"407-jZrtgUrRK3olxo8Yx50FKArvwRQ"
+server: hide
+
+{
+    "modelList": [
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4296,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4270,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4272,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4276,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4278,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4279,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4280,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4281,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4283,
+            "wheelType": "2WD",
+            "popular": true
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4284,
+            "wheelType": "2WD",
+            "popular": true
+        }
+    ],
+    "pagination": {
+        "total": 1943,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 195
+    }
+}

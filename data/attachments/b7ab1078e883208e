@@ -1,0 +1,144 @@
+HTTP/1.1 200 OK
+Date: Mon, 29 Sep 2025 08:30:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 601
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTkxMzQ1ODAsImV4cCI6MTc5MDY3MDU4MH0.-n4f3d140laVrqEaB3RBO_ukD7u9yaJ6z1_4y1d9nllEhxtjaErLeymajXSh8tjZIYsSplMi92EiHkVls8WCMQ.VCGY1L1F0zRQVZZQxOtzhhR%2FXtn783y6JsYU3qu2IB8; Domain=.staging.myautochek.com; Path=/; Expires=Wed, 05 Sep 2125 08:30:09 GMT
+ETag: W/"259-mGiiW9K0jXVc5R9LDTu08WL69XE"
+server: hide
+
+{
+    "modelList": [
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ]
+        }
+    ],
+    "pagination": {
+        "total": 1943,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 195
+    }
+}

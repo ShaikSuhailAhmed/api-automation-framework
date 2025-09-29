@@ -1,0 +1,73 @@
+HTTP/1.1 200 OK
+Date: Mon, 29 Sep 2025 08:30:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 364
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"16c-26CpxZ0EB8XFoTj5DRAVru4I9EM"
+server: hide
+
+{
+    "bodyTypeList": [
+        {
+            "id": 9,
+            "name": "Bus"
+        },
+        {
+            "id": 4,
+            "name": "Convertible"
+        },
+        {
+            "id": 7,
+            "name": "Coupe"
+        },
+        {
+            "id": 10,
+            "name": "Crossover"
+        },
+        {
+            "id": 5,
+            "name": "Hatchback"
+        },
+        {
+            "id": 19,
+            "name": "Liftback"
+        },
+        {
+            "id": 2,
+            "name": "Minivan"
+        },
+        {
+            "id": 16,
+            "name": "MPV"
+        },
+        {
+            "id": 20,
+            "name": "Notchback"
+        },
+        {
+            "id": 18,
+            "name": "Other"
+        }
+    ],
+    "pagination": {
+        "total": 17,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 2
+    }
+}
