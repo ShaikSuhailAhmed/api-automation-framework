@@ -58,7 +58,6 @@ jobs:
             else
               echo "No history/ folder in previous report."
             fi
-            # remove the linked worktree (folder is removed as well)
             git worktree remove ghpages-dir --force || true
           else
             echo "No gh-pages branch yet (first run)."
@@ -105,3 +104,36 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
 
+      # ---- NEW: Compute Pages URL and show it in Summary ----
+      - name: Compute Pages URL
+        id: pages
+        shell: bash
+        run: |
+          url="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "Allure report should be live at: $url"
+
+      - name: Add link to summary
+        if: always()
+        shell: bash
+        run: |
+          echo "### ✅ Allure report published" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "🔗 **[Open report](${{ steps.pages.outputs.url }})**" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "> Branch: \`${{ github.ref_name }}\` • Commit: \`${{ github.sha }}\`" >> "$GITHUB_STEP_SUMMARY"
+
+      # Optional: comment the link on PRs
+      - name: Comment link on PR
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const url = '${{ steps.pages.outputs.url }}';
+            const body = `✅ Allure report is published: **${url}**`;
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body
+            });
