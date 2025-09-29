@@ -1,0 +1,94 @@
+HTTP/1.1 200 OK
+Date: Mon, 29 Sep 2025 07:18:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2389
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTkxMzAyODYsImV4cCI6MTc5MDY2NjI4Nn0.HFx7RAq7SBwz2y4CmlMYKxrZ9h3bNEE3A8cmPMRwQq2yvnNRV6ew7R0z5QS44IlJzcQYwixBh8BsqLaWMG3usA.31i7ADWQ0OfZK9FvP5H4UEGOdmQ%2BGf9ZKAlmiK1LEWg; Domain=.staging.myautochek.com; Path=/; Expires=Wed, 05 Sep 2125 07:18:54 GMT
+ETag: W/"955-06HKdwMKuLhWT3y0l+nJIkPWyS4"
+server: hide
+
+{
+    "obds": [
+        {
+            "description": "climate control pushbutton circuit failure",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "fuel sender circuit failure",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "fuel sender circuit open",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "fuel sender circuit short to battery",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "fuel sender circuit short to ground",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "eic switch-1 assembly circuit failure",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "eic switch-1 assembly circuit open",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "eic switch-1 assembly circuit short to battery",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "eic switch-1 assembly circuit short to ground",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "description": "eic switch-2 assembly circuit failure",
+            "severity": "medium",
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        }
+    ],
+    "pagination": {
+        "total": 3191,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 320
+    }
+}

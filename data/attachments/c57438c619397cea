@@ -1,0 +1,34 @@
+HTTP/1.1 400 Bad Request
+Date: Mon, 29 Sep 2025 07:19:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 259
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTkxMzAzMzQsImV4cCI6MTc5MDY2NjMzNH0.Hr0hQse53SYkR01Pyk-Mu7E0mHmHX2d3d2BZVpdADH3lqMwvN1Mr__Im9ZSgyDYGONKv389mrPCDIp4qw86vEA.IoLqHCcEt4ZBfPePQnVw0tQHhCQweCePxoyj3vxfXIY; Domain=.staging.myautochek.com; Path=/; Expires=Wed, 05 Sep 2125 07:19:28 GMT
+ETag: W/"103-zmJ2eTbxGsQpjXyLsh4b3fm77Pg"
+server: hide
+
+{
+    "code": 4000,
+    "error": "Invalid relations provided",
+    "message": "Invalid relations provided",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inspection?country=NG&page_number=1&page_size=10&type=regular&relations=model%28make%2Cabc%29"
+        }
+    ]
+}
