@@ -1,0 +1,78 @@
+HTTP/1.1 200 OK
+Date: Mon, 29 Sep 2025 08:01:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 921
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"399-CNgsloS0i9SNTOIE3fmlmXo9nyg"
+server: hide
+
+{
+    "makeList": [
+        {
+            "id": 1,
+            "name": "ABARTH",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+        },
+        {
+            "id": 2,
+            "name": "Acura",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+        },
+        {
+            "id": 269,
+            "name": "ACURA MAKES",
+            "imageUrl": "https://storage.googleapis.com/autochek-staging/a88eb911-1abe-488d-9267-4946e3d4e709-honda%20logo.png"
+        },
+        {
+            "id": 3,
+            "name": "AIXAM",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/cf5c88a4-6719-4dfb-90dd-3c02bd23fb49-aixam-logo.png"
+        },
+        {
+            "id": 4,
+            "name": "ALFA ROMEO",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/e2e283bc-1367-4c96-921a-5bf04424656e-Alfaromeo2015.png"
+        },
+        {
+            "id": 244,
+            "name": "ALPHA"
+        },
+        {
+            "id": 245,
+            "name": "ALPHA1"
+        },
+        {
+            "id": 246,
+            "name": "ALPHA2"
+        },
+        {
+            "id": 247,
+            "name": "ALPHA3"
+        },
+        {
+            "id": 248,
+            "name": "ALPHA 4"
+        }
+    ],
+    "pagination": {
+        "total": 211,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 22
+    }
+}

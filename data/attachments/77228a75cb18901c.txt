@@ -1,0 +1,16 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inspection?country=NG&page_number=1&page_size=10&type=regular&fields=id%2Ccar%28model%28-id%29%29
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=NG
+				page_number=1
+				page_size=10
+				type=regular
+				fields=id,car(model(-id))
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTkxMzI4MTgsImV4cCI6MTc5MDY2ODgxOH0.fdYMgDJks3AxM6frfv7kghjn3462Rc07if_LUn6aLrz2BjP690OEZ-vau5dpb6WbKj95CacEj1OxklQ-uRMMPw
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

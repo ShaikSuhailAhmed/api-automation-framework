@@ -1,0 +1,539 @@
+HTTP/1.1 200 OK
+Date: Mon, 29 Sep 2025 08:00:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4723
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: accessToken=s%3AeyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJpYXQiOjE3NTkxMzI4MTgsImV4cCI6MTc5MDY2ODgxOH0.fdYMgDJks3AxM6frfv7kghjn3462Rc07if_LUn6aLrz2BjP690OEZ-vau5dpb6WbKj95CacEj1OxklQ-uRMMPw.SVhCQm%2BIM6CZZQO7SJf09iVG5ItkyOhZpFfJP9hbqFY; Domain=.staging.myautochek.com; Path=/; Expires=Wed, 05 Sep 2125 08:00:52 GMT
+ETag: W/"1273-Ha3HJT8jj+f8lus57WPuXFqAB7I"
+server: hide
+
+{
+    "result": [
+        {
+            "id": "0003bf32-a2b7-42b9-af86-8f2d4324f6a2",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1887,
+                    "name": "Camry",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                }
+            }
+        },
+        {
+            "id": "0004063f-6928-4096-bf81-7d48ef4432e9",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 682,
+                    "name": "Accord",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 45,
+                        "name": "Honda",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/honda.svg"
+                    },
+                    "popular": true,
+                    "decoded": "{\"makeId\":\"45\",\"modelId\":\"682\",\"trimId\":\"4474\",\"bodyTypeId\":7,\"features\":[],\"make\":\"Honda\",\"model\":\"Accord\",\"trim\":\"EX-L V6\",\"bodyType\":\"Coupe\",\"engineType\":\"6-cylinder(V6)\",\"fuelType\":\"petrol\",\"engineCc\":\"3471\",\"year\":\"2013\"}"
+                }
+            }
+        },
+        {
+            "id": "0008185b-1756-4140-a42c-a419f00ad933",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 917,
+                    "name": "ES 330",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "ES Series",
+                    "make": {
+                        "id": 61,
+                        "name": "Lexus",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/lexus.svg"
+                    },
+                    "popular": false
+                }
+            }
+        },
+        {
+            "id": "000d4bc4-b401-489f-8fdc-af70dc819067",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1242,
+                    "name": "GL 450",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "GL-Class",
+                    "make": {
+                        "id": 70,
+                        "name": "Mercedes-Benz",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/benz.svg"
+                    },
+                    "popular": false
+                }
+            }
+        },
+        {
+            "id": "000d9207-02ee-4417-9972-dcea0385da2e",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1891,
+                    "name": "Corolla",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": true
+                }
+            }
+        },
+        {
+            "id": "000eee70-62a7-46b6-901d-0793a25d9a19",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1891,
+                    "name": "Corolla",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": true
+                }
+            }
+        },
+        {
+            "id": "000efb72-58b5-4e2b-8970-86a12cf18298",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 952,
+                    "name": "RX 350",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "RX Series",
+                    "make": {
+                        "id": 61,
+                        "name": "Lexus",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/lexus.svg"
+                    },
+                    "popular": true
+                }
+            }
+        },
+        {
+            "id": "000f53ce-7d45-464d-88b8-6ff2b497eea3",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1887,
+                    "name": "Camry",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                }
+            }
+        },
+        {
+            "id": "000f8de8-c2fb-4c12-b2ca-394262fcc5f9",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 12,
+                    "name": "MDX",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": true
+                }
+            }
+        },
+        {
+            "id": "0011ef34-ad4b-4422-8a73-ef9ce7223ac8",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 918,
+                    "name": "ES 350",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "ES Series",
+                    "make": {
+                        "id": 61,
+                        "name": "Lexus",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/lexus.svg"
+                    },
+                    "popular": true
+                }
+            }
+        }
+    ],
+    "pagination": {
+        "total": 42830,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 4283
+    }
+}
