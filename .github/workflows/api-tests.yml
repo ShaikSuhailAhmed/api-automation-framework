@@ -1,5 +1,11 @@
 name: API Automation CI
 
+# needed so gh-pages deploy can push
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: [ "main" ]
@@ -14,6 +20,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # we need to fetch gh-pages later
 
       - name: Setup JDK 17
         uses: actions/setup-java@v4
@@ -27,14 +35,41 @@ jobs:
           java -version
           mvn -v
 
-      # Don't fail job on test failures — we still want Allure
+      # ---- RUN TESTS (keep pipeline green even if tests fail) ----
       - name: Run Tests
         run: mvn -B clean test || true
 
+      # ---- RESTORE HISTORY from previous report in gh-pages ----
+      # Copies gh-pages:/history -> target/allure-results/history
+      - name: Restore Allure history from gh-pages
+        shell: bash
+        run: |
+          set -e
+          # try to fetch gh-pages; ignore if it does not exist yet
+          git fetch origin gh-pages:gh-pages || echo "gh-pages branch not found yet"
+          if git rev-parse --verify gh-pages >/dev/null 2>&1; then
+            echo "Restoring history from previous report..."
+            git worktree add ghpages-dir gh-pages
+            if [ -d "ghpages-dir/history" ]; then
+              mkdir -p target/allure-results
+              rm -rf target/allure-results/history
+              cp -r ghpages-dir/history target/allure-results/history
+              echo "History restored into target/allure-results/history"
+            else
+              echo "No history/ folder in previous report."
+            fi
+            # remove the linked worktree (folder is removed as well)
+            git worktree remove ghpages-dir --force || true
+          else
+            echo "No gh-pages branch yet (first run)."
+          fi
+
+      # ---- GENERATE REPORT (now with history merged) ----
       - name: Generate Allure Report
         if: always()
         run: mvn -B allure:report
 
+      # ---- UPLOAD ARTIFACTS ----
       - name: Upload Allure Results (JSON)
         if: always()
         uses: actions/upload-artifact@v4
@@ -63,8 +98,10 @@ jobs:
           name: allure-report
           path: site
 
+      # site/ contains index.html + history/ (merged). Publish it:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+
